@@ -1,0 +1,81 @@
+:root
+{
+    --bg-color: #fff;
+    --border-color: #ddd;
+    --text-color: #333;
+}
+:root.dark
+{
+    --bg-color: #000;
+    --border-color: #222;
+    --text-color: #fff;
+}
+#mode_toggler
+{
+    position: fixed;
+    touch-action: 20px;
+    right: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+body
+{
+    background: #c94b4b;  
+    background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);
+    background: linear-gradient(to right, #4b134f, #c94b4b); 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 40%;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #dfd3d3;
+    box-shadow: rgba(99, 99, 99) 0px 1px 0px;
+}
+form input
+{
+    width: 80%;
+    padding: 15px 20px;
+    margin-left: 38px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #333;
+}
+form > button
+{
+    display: block;
+    margin: auto;
+    padding:  13px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #5f5959;
+    color: #fff;
+}
+form div
+{
+    position: relative;
+}
+form div button
+{
+    position: absolute;
+    right: 75px;
+    top: 17px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: rgba(33, 35, 44, 0.7);
+} 
